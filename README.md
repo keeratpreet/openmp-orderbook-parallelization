@@ -30,3 +30,7 @@ Measured on a 10-logical-core Apple Silicon machine, speedup vs. the sequential 
 - `updateDisplay` shows the most modest speedup (~5×) since its main loop must stay sequential; gains come entirely from parallel pre-decoding and background snapshot tasks.
 
 See `report.pdf` for the full writeup and speedup plot.
+
+## License
+
+Released under the [MIT License](LICENSE).
